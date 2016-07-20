@@ -1,0 +1,18 @@
+{
+  "github": "opensourcelist/products",
+  "css": [
+    "http://ricostacruz.com/docpress-rsc/style.css",
+    "docs/assets/custom.css"
+  ],
+  "markdown": {
+    "typographer": true,
+    "plugins": {
+      "decorate": {}
+    }
+  },
+  "plugins": {
+    "docpress-core": {},
+    "docpress-search": {},
+    "docpress-base": {}
+  }
+}

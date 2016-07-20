@@ -1,26 +1,17 @@
 language: node_js
 node_js:
-- 'stable'
-- '6'
-- '5'
-- '4'
-cache:
-  directories:
-  - node_modules
-
-# Build docs using latest docpress plugins
-script:
-- npm test
-- ./bin/docpress build
-
-# Deploy to gh-pages
-after_success:
-- if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then ./node_modules/.bin/git-update-ghpages -e; fi
+- 4
 
 env:
   global:
-  - GIT_NAME: Travis CI
-  - GIT_EMAIL: nobody@nobody.org
-  - GITHUB_REPO: opensourcelist/opensourcelist.github.io
-  - GIT_SOURCE: _docpress
-  - GIT_BRANCH: master
+    - GIT_NAME: Travis CI
+    - GIT_EMAIL: nobody@nobody.org
+    - GITHUB_REPO: opensourcelist/projects
+    - GIT_SOURCE: _docpress
+
+script:
+- rake     # ...or whatever your test command is
+- npm install docpress && ./node_modules/.bin/docpress build
+
+after_success:
+- if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then npm install git-update-ghpages && ./node_modules/.bin/git-update-ghpages -e; fi

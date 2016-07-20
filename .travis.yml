@@ -8,9 +8,9 @@ env:
     - GIT_EMAIL: nobody@nobody.org
     - GITHUB_REPO: opensourcelist/opensourcelist.github.io
     - GIT_SOURCE: _docpress
+    - GIT_BRANCH: master
 
 script:
-- rake     # ...or whatever your test command is
 - npm install docpress && ./node_modules/.bin/docpress build
 
 after_success:

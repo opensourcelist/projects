@@ -6,7 +6,7 @@ env:
   global:
     - GIT_NAME: Travis CI
     - GIT_EMAIL: nobody@nobody.org
-    - GITHUB_REPO: opensourcelist/projects
+    - GITHUB_REPO: opensourcelist/opensourcelist.github.io
     - GIT_SOURCE: _docpress
 
 script:

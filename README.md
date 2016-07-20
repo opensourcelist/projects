@@ -1,2 +1,1 @@
-# products
-List of Open Source Products
+# List of Open Source Products

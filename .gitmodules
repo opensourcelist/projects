@@ -1,3 +1,6 @@
 [submodule "docs/iOS/apps"]
 	path = docs/iOS/apps
 	url = https://github.com/opensourcelist/open-source-ios-apps.git
+[submodule "docs/iOS/other"]
+	path = docs/iOS/other
+	url = https://github.com/opensourcelist/awesome-ios.git

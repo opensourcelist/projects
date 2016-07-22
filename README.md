@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/opensourcelist/projects.svg?branch=master)](https://travis-ci.org/opensourcelist/projects)
 
+* Products
+  * [Forum](docs/products/forum.md)
 * nodejs
   * [Documentation](docs/nodejs/documentation.md)
 * iOS

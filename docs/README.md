@@ -1,4 +1,6 @@
 * [List of Open Source Projects](../README.md)
+* Products
+  * [Forum](products/forum.md)
 * nodejs
   * [Documentation](nodejs/documentation.md)
 * iOS

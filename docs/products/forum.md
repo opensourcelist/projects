@@ -14,6 +14,7 @@ List of open-source forum software scripts on github
 * [**esoTalk**](https://github.com/esotalk/esoTalk) - Fat-free forum software. http://esotalk.org
 * [**Carbon Forum**](https://github.com/lincanbin/Carbon-Forum) - A high performance open-source forum software written in PHP. Discussions Tags based with Quora/StackOverflow style. https://www.94cb.com
 * [**MyBB**](https://github.com/mybb/mybb) - MyBB is a free and open source forum software. https://www.mybb.com
+* [**SMF**](https://github.com/SimpleMachines/SMF) - Simple Machines Forum is open-source free community forum software, written in PHP. https://www.simplemachines.org
 
 ## python
 
